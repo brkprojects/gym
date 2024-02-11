@@ -249,34 +249,42 @@
             text-align: center;
         }
 
-
         .joinus {
-            padding-top: 20px;
             display: flex;
             justify-content: center;
+            background-color: white;
+        }
+
+        .formleft {
+            position: relative;
+            display: inline-block;
+            width: 38%;
+        }
+
+        .form {
+            border-radius: 5px;
+            overflow: hidden;
+            padding-left: 60px;
+            width: 25%;
         }
 
         .icon {
             position: relative;
             display: inline-block;
-            padding-top: 10px;
-
         }
-
 
         .text {
             position: relative;
             display: inline-block;
             width: 70%;
             padding-left: 40px;
-            padding-bottom: 30px;
+            padding-bottom: 20px;
         }
 
         .title2 {
-            color: #000000;
+            color: black;
             font-size: 22px;
             font-family: 'open sans', sans-serif;
-            line-height: 100%;
             padding-top: 10px;
         }
 
@@ -284,39 +292,20 @@
             color: rgb(169, 169, 169);
             font-size: 16px;
             font-family: 'open sans', sans-serif;
-            line-height: 26px;
             display: inline-block;
-            width: 100%;
             position: relative;
-            top: -5px;
-        }
-
-        .formleft {
-            position: relative;
-            display: inline-block;
-            padding: 40px 0px 10px 0px;
-            width: 38%;
-            display: inline-block;
-
-        }
-
-        .form {
-            border-radius: 3px;
-            overflow: hidden;
-            width: 30%;
         }
 
         .substyle {
-            background: #ebeaea;
-            height: 100%;
+            background: #d6f4f9;
+            height: auto;
             padding-top: 40px;
-            padding-bottom: 5px;
             border-radius: 3px;
         }
 
         .titlestyle {
             margin-left: 20px;
-            color: #000000;
+            color: black;
             font-size: 22px;
             font-family: open sans, sans-serif;
         }
@@ -325,18 +314,18 @@
             position: relative;
             max-width: 68%;
             font-size: 14px;
-            color: rgb(169, 169, 169);
+            color: grey;
             margin-left: 20px;
             font-family: open sans, sans-serif;
         }
 
         .sendbutton button {
-            background: #ff8833;
+            background: #6e65f3;
             padding: 10px 40px 10px 40px;
             border-radius: 3px;
             font-weight: normal;
             text-shadow: none;
-            color: #fff;
+            color: white;
             font-family: 'Open Sans', sans-serif;
             font-size: 16px;
             text-decoration: none;
@@ -370,21 +359,20 @@
         }
 
         .contactnote {
-            background: #ddd;
-            text-align: center;
+            background: #c8caca;
             color: #808080;
             font-size: 13px;
             font-family: 'open sans', sans-serif;
             padding: 25px 20px;
-            margin-top: 120px;
-
+            margin-top: 60px;
+            width: 330px;
+            text-align: center;
         }
-        
+
 
         .container4 {
             background-color: rgb(247, 239, 239);
             padding-top: 20px;
-            padding-bottom: 40px;
 
             h2 {
                 text-align: center;
@@ -428,7 +416,6 @@
             display: flex;
             justify-content: center;
         }
-
     </style>
 </head>
 
@@ -494,7 +481,7 @@
                         <p class="gym">Welcome to Gym</p>
                         <p class="gymtext">Lorem ipsum dolor sit amet consectetur adipiscing elite.</p>
                     </div>
-                    <span class="linkbutton"><a class="slow_fade" href="#href_contact">JoinNow</a></span>
+                    <span class="linkbutton"><a>Join Now</a></span>
                 </div>
 
 
@@ -507,7 +494,7 @@
                         <p class="gym">Fitness Activities</p>
                         <p class="gymtext">Lorem ipsum dolor sit amet consectetur adipiscing elite.</p>
                     </div>
-                    <span class="linkbutton"><a class="slow_fade" href="#href_contact">JoinNow</a></span>
+                    <span class="linkbutton"><a>Join Now</a></span>
                 </div>
 
 
@@ -517,13 +504,11 @@
                             src="https://pixfort.website/themeforest/landing/flatpack/13_gym/images/13_gym/3.jpg"
                             class="logostyle" alt="">
                     </div>
-                    <div class="textgymtyle">
+                    <div class="textgymstyle">
                         <p class="gym">High quality Staff</p>
                         <p class="gymtext">Lorem ipsum dolor sit amet consectetur adipiscing elite.</p>
                     </div>
-                    <span class="linkbutton">
-                        <a class="slow_fade" href="#href_contact">Join Now</a>
-                    </span>
+                    <span class="linkbutton"><a>Join Now</a></span>
                 </div>
 
             </div>
@@ -532,7 +517,6 @@
 
 
         <div class="joinus">
-
 
             <div class="formleft">
 
@@ -545,7 +529,7 @@
                         eiusmod tempor incididunt.</p>
                 </div>
 
-                
+
                 <div class="icon"> <img
                         src="https://pixfort.website/themeforest/landing/flatpack/13_gym/images/13_gym/water.png"
                         alt=""></div>
@@ -555,10 +539,10 @@
                         eiusmod tempor incididunt.</p>
                 </div>
 
-               
+
                 <div class="icon"> <img
-                        src="https://pixfort.website/themeforest/landing/flatpack/13_gym/images/13_gym/timer.png"
-                        alt="" class="timer"></div>
+                        src="https://pixfort.website/themeforest/landing/flatpack/13_gym/images/13_gym/timer.png" alt=""
+                        class="timer"></div>
                 <div class="text">
                     <p class="title2">The Best Bundle Ever</p>
                     <p class="subject">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
@@ -579,15 +563,15 @@
                     </div><br>
 
                     <div class="contactform">
-                       
+
                         <input type="text" name="name" placeholder="Your Full Name" class="forminput">
                         <input type="email" name="email" placeholder="Your Email" class="forminput">
                         <input type="text" name="number" placeholder="Your Phone Number" class="forminput">
-                        <span class="sendbutton"><button class="sendbutton">Send Information</button></span>
-                        <div class="contactnote">*Note: Bundle ends in two weeks from now.</div>
-
+                        <span class="sendbutton"><button>Send Information</button></span>
                     </div>
+                    <div class="contactnote">*Note: Bundle ends in two weeks from now.</div>
                 </div>
+
             </div>
         </div>
 
@@ -626,20 +610,20 @@
             </div>
 
 
-        <div class="footer">
-            <div>
-                <span class="last"> All rights reserved Copyright &copy; 2015 FLATPACK by
-                    <span class="pixfort">PixFort</span>
-                </span>
-            </div>
+            <div class="footer">
+                <div>
+                    <span class="last"> All rights reserved Copyright &copy; 2015 FLATPACK by
+                        <span class="pixfort">PixFort</span>
+                    </span>
+                </div>
 
-            <h1 class="last">Your likes & share makes us happy!</h1>
-            <div class="icons">
-                <i class="fa-brands fa-twitter">Tweet</i>
-                <i class="fa-solid fa-thumbs-up">Like</i>
+                <h1 class="last">Your likes & share makes us happy!</h1>
+                <div class="icons">
+                    <i class="fa-brands fa-twitter">Tweet</i>
+                    <i class="fa-solid fa-thumbs-up">Like</i>
+                </div>
             </div>
         </div>
-    </div>
 </body>
 
 </html>
